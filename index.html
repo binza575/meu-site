@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros Digitais</title>
+    <style>
+        body {
+            display: flex;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        #menu {
+            width: 20%;
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            height: 100vh;
+        }
+        #menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        #menu ul li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        #menu ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        #content {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .ebook {
+            width: 200px;
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        .ebook img {
+            width: 200px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Categorias</a></li>
+            <li><a href="#">Favoritos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+
+    
+    <div id="content">
+        <div class="ebook">
+            <img src="unnamed.jpg" alt="Ebook 1">
+            <p>20,00R$</p>
+        </div>
+        <div class="ebook">
+            <img src="1024w-U1dpnJ3bwKw.webp" alt="Ebook 2">
+            <p>20,00R$</p>
+        </div>
+        <div class="ebook">
+            <img src="0952c76b951f2ab5ab6a4e30bfcd5a43.jpg" alt="Ebook 3">
+            <p>20,00R$</p>
+        </div>
+        <div class="ebook">
+            <img src="Vanguaro saga.jpg" alt="Ebook 4">
+            <p>20,00R$</p>
+        </div>
+        <div class="ebook">
+            <img src="o-labirinto-do-fauno.jpg" alt="Ebook 5">
+            <p>20,00R$</p>
+        </div>
+        <div class="ebook">
+            <img src="a-ponte-entre-reinos.jpg" alt="Ebook 6">
+            <p>20,00R$</p>
+        </div>
+        <div class="ebook">
+            <img src="jogos vorazes.jpg" alt="Ebook 7">
+            <p>20,00R$</p>
+        </div>
+        <div class="ebook">
+            <img src="mais-esperto-que-o-diabo-.jpg" alt="Ebook 8">
+            <p>20,00R$</p>
+        </div>
+    </div>
+
+</body>
+</html>
